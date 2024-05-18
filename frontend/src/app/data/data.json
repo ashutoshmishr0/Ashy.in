@@ -1,0 +1,52 @@
+{
+    "courses":[
+        {
+            "id":1,
+            "title":"Tak-Tok",
+            "discription":"Developed a MERN stack real-time messaging web application akin to WhatsApp using Node.js, Express.js, MongoDB, React.js, and Socket.IO.",
+            "slug":"https://images.pexels.com/photos/221179/pexels-photo-221179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "price":"888",
+            "instructor":"https://tak-tok.onrender.com/",
+            "isFeatured":"true"
+            
+        },
+           {
+            "id":5,
+            "title":"Blogify",
+            "discription":"Developed a dynamic blog website using Node.js, Express.js, MongoDB, and EJS, with secure user authentication for personalized and scalable performance.",
+            "slug":"jkasdjhhhhhhhhhhhhhahdhudbjh",
+            "price":"888",
+            "instructor":"https://blogyfy.onrender.com/",
+            "isFeatured":"true"
+            
+        },
+         {
+            "id":2,
+            "title":"Sangit",
+            "discription":"Created a SangitWeb using HTML, CSS, and JavaScript, featuring user-friendly interface, playlist management, and dynamic music streaming capabilities.",
+            "price":"888",
+            "instructor":"https://ashutoshmishr0.github.io/Sangeet/",
+            "isFeatured":"true"
+            
+        },
+         {
+            "id":3,
+            "title":"Portfolio",
+            "discription":"Created a personal portfolio using HTML, CSS, and JavaScript, showcasing projects, skills, and experiences with a responsive and interactive design.",
+            "price":"888",
+            "instructor":"https://ashutoshmishr0.github.io/ashutosh.github.io/",
+            "isFeatured":"true"
+            
+        },
+         {
+            "id":4,
+            "title":"Pizza-Hub",
+            "discription":"Developed a pizza delivery website using HTML, CSS, and JavaScript, featuring interactive menus, online ordering, and a responsive design.",
+            "slug":"jkasdjhhhhhhhhhhhhhahdhudbjh",
+            "price":"888",
+            "instructor":"jhttps://ashutoshmishr0.github.io/Pizza/",
+            "isFeatured":"true"
+            
+        }
+    ]
+}

@@ -16,7 +16,7 @@ interface Course
 }
 
 function Projects(){
-   const featuredCourses= Project.courses.filter((course :Course) => course.isFeatured);
+   const featuredCourses= Project.courses.filter((course) => course.isFeatured);
 
   return (
     <div className=" py-12 bg-gradient-to-t from-gray-900 to-black">
@@ -30,7 +30,7 @@ function Projects(){
        </div>
        <div className="mt-10 p-4"> 
        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-        {featuredCourses.map((course:Course)=>(
+        {featuredCourses.map((course)=>(
       <div key={course.id} className="flex justify-center">
         <BackgroundGradient className="flex  flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
           <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">

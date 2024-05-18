@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@radix-ui/react-label": "^2.0.2",
-    "@tabler/icons-react": "^3.4.0",
-    "mini-svg-data-uri": "^1.4.4",
-    "simplex-noise": "^4.0.1"
-  }
-}

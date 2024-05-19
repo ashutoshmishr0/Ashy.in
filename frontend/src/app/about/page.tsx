@@ -10,10 +10,10 @@ interface Course
 {
     id:number,
             title:string,
-            slug:string,
+            img:string,
             discription:string,
             price:string,
-            instructor:string,
+            link:string,
             isFeatured:boolean
 }
 
@@ -42,19 +42,24 @@ interface Course
           {course.discription}
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
+           
+       
+      
           <Image
-            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={course.Img}
             height="1000"
             width="1000"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
             alt="thumbnail"
-          />
+          /> 
+           
+          
         </CardItem>
         <div className="flex justify-between items-center mt-20">
           <CardItem
             translateZ={20}
             as={Link}
-            href="/"
+            href={course.link}
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >

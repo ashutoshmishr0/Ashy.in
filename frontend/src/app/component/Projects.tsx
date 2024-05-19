@@ -8,10 +8,10 @@ interface Course
 {
     id:number,
             title:string,
-            slug:string,
+            link:string,
             discription:string,
             price:string,
-            instructor:string,
+            img:string,
             isFeatured:boolean
 }
 
@@ -36,7 +36,7 @@ function Projects(){
           <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
            <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
            <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.discription}</p>
-           <Link className="text-blue-200" href={`${course.instructor}`}> Visit</Link>
+           <Link className="text-blue-200" href={`${course.link}`}> Visit</Link>
 
           </div>
         </BackgroundGradient>
